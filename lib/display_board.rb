@@ -6,10 +6,10 @@ def display_board(board)
   
   puts "the currrent state of tic tac toe #{board}."
   
-puts " O: #{board[0]} | X: #{board[1]} | #{board[2]} "
+puts "  #{board[0]} |  #{board[1]} | #{board[2]} "
 puts "-----------"
-puts " #{board[3]} | X: #{board[4]} | #{board[5]} "
+puts " #{board[3]} |  #{board[4]} | #{board[5]} "
 puts "-----------"
-puts "X: #{board[6]} | O: #{board[7]} | #{board[8]} " 
+puts " #{board[6]} |  #{board[7]} | #{board[8]} " 
   
 end 
